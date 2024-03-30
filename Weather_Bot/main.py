@@ -3,7 +3,7 @@ import datetime
 
 
 def get_data(city):
-    key = '4f63a75347fcff4b8770317a41b3eeb6'
+    key = ''
     url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}&units=metric'
 
     request = requests.get(url).json()
