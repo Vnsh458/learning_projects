@@ -2,7 +2,7 @@ import telebot
 
 from main import get_data, eng_name
 
-token = "5867098755:AAHBh4dy8GHBxTcN3IqXw9i2T04FviGA43M"
+token = "TOKEN"
 
 bot = telebot.TeleBot(token)
 
